@@ -1,0 +1,109 @@
+body {
+	font-size: 16px;
+	display: block;
+	background-color: #FAB61B;
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+/*start of the header*/
+/*navbar*/
+#header-nav {
+	background-color: #000;
+	border-radius: 0;
+	border: 0;
+}
+
+.navbar {
+	padding-top: 25px;
+	padding-bottom: 0;
+}
+.navbar-brand h1 {
+	color: #F09604;
+	font-weight: bold;
+	font-size: 3.0em;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 1px #FAF71B; 
+	margin: 0;
+	padding: 0;
+	line-height: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+	text-decoration: none;
+}
+
+/*navbar button*/
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+	border: 1px solid #FAF71B;
+	background-color: #000000;
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:active, .navbar-header button.navbar-toggle:focus {
+	background-color: #FF2020;
+}
+
+/*.navbar-header button.navbar-toggle {
+	clear: both;
+}*/
+li {
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: bold;	
+}
+a span {
+	color: #FF2020;
+}
+#nav-list {
+	padding: 0;
+
+}
+
+#nav-list a:hover, #nav-list a:active {
+	background-color: #FFFE27;
+	
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+}
+/*End of header*/
+
+/*Our menu title*/
+
+div #ourmenu {
+	font-size: 4em;
+	font-weight: bold;
+	text-transform: capitalize;
+	text-align: center;
+	margin: 10px auto 35px;
+}
+div #ourmenu h2 {
+	color: #FF2020;
+	text-shadow: 2px 2px 2px #000000;
+}
+/*Menu-tiles*/
+#Chicken, #Beef, #Sushi {
+	border: 2px solid #000;
+	margin: 0 auto 25px;
+	height: 350px;
+	width: 100%;
+	background-color: #FFFE27;
+}
+
+#chi, #bee, #sus {
+	text-align: center;
+}
+
+#chi h3, #bee h3, #sus h3 {
+	font-weight: bold;
+	font-size: 1.5em;
+}
+
+p {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	text-align: justify;
+	font-weight: bold;
+}
